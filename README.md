@@ -47,8 +47,7 @@ SECURITYHUBQUEUE = <your_securityhub_queue_name>  //SQS queue that is configured
 3.	Take only the required nodes from JSON objects and convert them to XML file
 
 ### Usage: 
-running these files create xml files with GuardDuty and Security Hub Findings.
+added these files in package.json under scripts/start, so run 'npm start' 
 ```python
-node .\GuardDuty_SQS_Messages_XML.js	
-node .\SecurityHub_SQS_Messages_XML.js	
+$npm start
 ```
