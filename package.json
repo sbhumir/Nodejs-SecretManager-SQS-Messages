@@ -4,7 +4,8 @@
   "description": "Use AWS Secret Manager to fetch credentials and SQS API to fetch queue messages and write to XML file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node GuardDuty_SQS_Messages_XML.js && node SecurityHub_SQS_Messages_XML.js"
   },
   "repository": {
     "type": "git",
