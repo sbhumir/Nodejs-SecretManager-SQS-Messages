@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-secretmanager-sqs-messages",
+  "version": "1.0.0",
+  "description": "Use AWS Secret Manager to fetch credentials and SQS API to fetch queue messages and write to XML file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbhumir/Nodejs-SecretManager-SQS-Messages.git"
+  },
+  "author": "Sirisha Bhumireddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbhumir/Nodejs-SecretManager-SQS-Messages/issues"
+  },
+  "homepage": "https://github.com/sbhumir/Nodejs-SecretManager-SQS-Messages#readme",
+  "dependencies": {
+    "aws-sdk": "^2.769.0",
+    "dotenv": "^8.2.0",
+    "xmlbuilder": "^15.1.1"
+  }
+}
