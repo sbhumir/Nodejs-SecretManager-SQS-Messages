@@ -45,9 +45,8 @@ SECURITYHUBQUEUE = <your_securityhub_queue_name>  //SQS queue that is configured
 1.	This sample application connects to AWS Secret Manager and fetches the credentials.
 2.	The script will fetch the messages(findings) from AWS Security Hub and GuardDuty queues.
 3.	Take only the required nodes from JSON objects and convert them to XML file
-
-### Usage: 
-added these files in package.json under scripts/start, so run 'npm start' 
+ 
+run 'npm start' 
 ```python
-$npm start
+$ npm start
 ```
